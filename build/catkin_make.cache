@@ -1,0 +1,2 @@
+mybot_simple_control:robot_description:teleop_twist_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/avinash/ros_slam_meher/devel -DCMAKE_INSTALL_PREFIX=/home/avinash/ros_slam_meher/install -G Unix Makefiles

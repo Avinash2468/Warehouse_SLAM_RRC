@@ -1,0 +1,8 @@
+prefix=/home/avinash/ros_slam_meher/devel
+
+Name: teleop_twist_keyboard
+Description: Description of teleop_twist_keyboard
+Version: 0.6.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
