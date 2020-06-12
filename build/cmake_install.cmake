@@ -133,7 +133,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/avinash/ros_slam_meher/build/gtest/cmake_install.cmake")
   include("/home/avinash/ros_slam_meher/build/mybot_simple_control/cmake_install.cmake")
   include("/home/avinash/ros_slam_meher/build/robot_description/cmake_install.cmake")
+  include("/home/avinash/ros_slam_meher/build/slam_gmapping/slam_gmapping/cmake_install.cmake")
   include("/home/avinash/ros_slam_meher/build/teleop_twist_keyboard/cmake_install.cmake")
+  include("/home/avinash/ros_slam_meher/build/slam_gmapping/gmapping/cmake_install.cmake")
 
 endif()
 

@@ -92,11 +92,11 @@
     <xacro:wheel prefix="left" reflect="1"/>
     <xacro:wheel prefix="right" reflect="-1"/>
     <xacro:macro name="sphere_inertia" params="m r">
-   <inertial>
-     <mass value="${m}"/>
-     <inertia ixx="${2.0*m*(r*r)/5.0}" ixy="0.0" ixz="0.0" iyy="${2.0*m*(r*r)/5.0}" iyz="0.0" izz="${2.0*m*(r*r)/5.0}"/>
-   </inertial>
- </xacro:macro>
+     <inertial>
+       <mass value="${m}"/>
+       <inertia ixx="${2.0*m*(r*r)/5.0}" ixy="0.0" ixz="0.0" iyy="${2.0*m*(r*r)/5.0}" iyz="0.0" izz="${2.0*m*(r*r)/5.0}"/>
+     </inertial>
+   </xacro:macro>
 
   <link name="caster_wheel">
    <visual>

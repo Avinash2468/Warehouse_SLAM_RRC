@@ -7,4 +7,6 @@
 subdirs("gtest")
 subdirs("mybot_simple_control")
 subdirs("robot_description")
+subdirs("slam_gmapping/slam_gmapping")
 subdirs("teleop_twist_keyboard")
+subdirs("slam_gmapping/gmapping")
